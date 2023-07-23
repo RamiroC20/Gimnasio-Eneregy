@@ -1,0 +1,34 @@
+.heroIndex {
+    background-image: url(../assets/img/heroIndex.webp);
+    @include bg-image;
+}
+
+.heroH1 {
+    font-size:10vh;
+    -webkit-text-stroke: $bordertext;
+}
+
+.heroH2 {
+    font-size:8vh;
+    -webkit-text-stroke: $bordertext;
+}
+
+.bgSection2 {
+    background-image: url(../assets/img/informacion_principal.webp);
+    @include bg-image;
+}
+
+.logoSection2 {
+    height: 15vh !important;  
+}
+
+.bgSection3 {
+    background-image: url(../assets/img/fondo_blanco.webp);
+    @include bg-image;
+    margin-left: $mp-0 ;
+}
+
+.planes {
+    height: 70%;
+    width: 30%;
+}

@@ -1,0 +1,16 @@
+$colors: (
+    naranja: #F17C3A,
+    gris: #5B5B5B);
+
+
+.btn-naranja {
+    background-color: map-get($colors , naranja );
+}
+
+.text-naranja {
+    color: map-get($colors , naranja );
+}
+
+.bg-gris {
+    background-color: map-get($colors , gris );
+}

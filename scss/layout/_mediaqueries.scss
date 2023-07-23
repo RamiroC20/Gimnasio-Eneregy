@@ -1,0 +1,40 @@
+// HEADER //
+@media (max-width: 992px) {
+    header {
+        height: 30vh !important;
+
+        div {
+            display: flex !important;
+            justify-content: center !important;
+        }
+
+        nav {
+            display: flex !important;
+            justify-content: center !important;
+        } 
+        
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        
+        height: 75vh !important;
+
+        nav {
+            height: 60vh !important; 
+
+            ul {
+                flex-direction: column !important;
+
+                li {
+                    padding-right: 0 !important;
+                }
+            }
+        } 
+
+    }
+}
+
+//

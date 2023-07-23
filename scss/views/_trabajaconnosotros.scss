@@ -1,0 +1,13 @@
+.heroTrabajaconnosotros {
+    background-image: url(../assets/img/heroTrabajaconnosotros.webp);
+    @include bg-image;
+}
+
+.cards {
+    width: 30%;
+}
+
+.bg-cards {
+    background-color: map-get($colors , naranja );
+}
+

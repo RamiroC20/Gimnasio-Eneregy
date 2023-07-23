@@ -1,0 +1,9 @@
+.heroSobrenosotros {
+    background-image: url(../assets/img/heroSobrenosotros.webp);
+    @include bg-image;
+}
+
+.sobreNosotrosSection2 {
+    background-image: url(../assets/img/fondo_blanco.webp) ;
+    @include bg-image;
+}

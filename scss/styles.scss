@@ -1,0 +1,17 @@
+// UTILITIES //      
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+// GLOBALS //
+@import "./globals/reset";
+
+// LAYOUT //
+@import "./layout/mediaqueries";
+
+// VIEWS //
+@import "./views/actividades";
+@import "./views/contactanos";
+@import "./views/index";
+@import "./views/sobrenosotros";
+@import "./views/trabajaconnosotros";

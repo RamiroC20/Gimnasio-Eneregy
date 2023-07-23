@@ -1,0 +1,24 @@
+* {
+    box-sizing: $borderbox;
+    margin: $mp-0;
+    padding: $mp-0;
+    font-family: $bayon;
+    font-weight: $fw-400;
+}
+
+header {
+    height: 15vh;
+    margin: $mp-0 !important;
+
+    img {
+        height: 15vh !important;
+    }
+}
+
+section {
+    height: 90vh;
+}
+
+footer {
+    height: 22vh;
+}

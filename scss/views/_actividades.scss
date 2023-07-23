@@ -1,0 +1,37 @@
+.heroActividades {
+    background-image: url(../assets/img/heroActividades.webp) ;
+        @include bg-image;
+}
+
+.navActividades {
+    height: 15vh;
+}
+
+.actividades {
+    height: 30vh;
+}
+
+.musculacionImg {
+    background-image: url(../assets/img/imagenmusculacion.webp) ;
+    @include bg-image;
+}
+
+.funcionalImg {
+    background-image: url(../assets/img/imagenfuncional.webp) ;
+    @include bg-image;
+}
+
+.crossfitImg {
+    background-image: url(../assets/img/imagencrossfit.webp) ;
+    @include bg-image;
+}
+
+.zumbaImg {
+    background-image: url(../assets/img/imagenzumba.webp) ;
+    @include bg-image;
+}
+
+.powerliftingImg {
+    background-image: url(../assets/img/imagenpowerlifting.webp) ;
+    @include bg-image;
+}
