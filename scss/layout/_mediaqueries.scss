@@ -1,4 +1,15 @@
 // HEADER //
+@media (max-width: 2560px) {
+    header {
+        nav {
+            ul {
+                justify-content: end !important;
+            }
+        }
+    }
+
+}
+
 @media (max-width: 992px) {
     header {
         height: 30vh !important;
@@ -27,6 +38,7 @@
 
             ul {
                 flex-direction: column !important;
+                justify-content: center !important;
 
                 li {
                     padding-right: 0 !important;
@@ -34,7 +46,329 @@
             }
         } 
 
+        
+
     }
 }
 
-//
+// MAIN //
+
+// INDEX //
+//section 2//
+@media(max-width:992px) {
+    .mq-width {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:768) {
+    .small-size {
+        font-size: 20px !important;
+    }
+}
+
+
+//section 3 //
+
+@media (max-width:1500px) {
+    .planes {
+        ul {
+            li {
+                font-size: 16px !important;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+
+    .section_index {
+        height: 110vh !important;
+    }
+
+    .jc-center {
+        display: flex !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .planes {
+        height: 90% !important;
+        width: 40% !important;
+    }
+}
+
+@media(max-width:700px) {
+    .section_index {
+        height: 160vh !important;
+    }
+
+    .column {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .planes {
+        height: 45% !important;
+        width: 90% !important;
+    }
+}
+
+@media(max-width:500px) {
+
+    .section_index {
+        height: 170vh !important;
+    } 
+
+
+    .planes {
+        height: 45% !important;
+        width: 95% !important;
+    }
+}
+
+@media(max-width:400px) {
+    .section_index {
+        height: 200vh !important;
+    }
+}
+
+// SOBRE NOSOTROS //
+@media(max-width:1600px) {
+    .text_size {
+        font-size: 22px !important;
+    }
+}
+
+@media(max-width:1200px) {
+    .text_size {
+        font-size: 20px !important;
+    }
+}
+
+
+
+@media(max-width:992px) {
+
+    .section-column {
+        flex-direction: column !important;
+        height: 130vh !important;
+
+        aside {
+        height: 60vh !important;
+        width: 100% !important;
+            aside {
+                display: flex !important;
+                flex-direction: row !important;
+                justify-content: center;
+                div {
+                    width: 30% !important;
+                    height: 50% !important;
+                    img {
+                        width: 100% !important;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media(max-width:810px) {
+    .section-column {
+        height: 140vh !important;
+    }
+}
+
+@media(max-width:630px) {
+    .section-column {
+        height: 150vh !important;
+    }
+}
+
+@media(max-width:580px) {
+    .section-column {
+        height: 160vh !important;
+    }
+}
+
+@media(max-width:510px) {
+    .section-column {
+        height: 170vh !important;
+    }
+}
+
+@media(max-width:480px) {
+    .section-column {
+        height: 185vh !important;
+    }
+}
+
+@media(max-width:415px) {
+    .section-column {
+        height: 200vh !important;
+    }
+}
+
+@media(max-width:375px) {
+    .section-column {
+        height: 215vh !important;
+    }
+}
+
+// CONTACTANOS //
+@media(max-width:1440px) {
+    .section_contactanos {
+        height: 110vh;
+    }
+}
+
+// ACTIVIDADES //
+
+@media(max-width:1440px) {
+    .actividades {
+        height: 40vh !important;
+    }
+}
+
+@media(max-width:1024px) {
+    .actividades {
+        height: 45vh !important;
+    }
+}
+
+@media(max-width:680px) {
+    .actividades {
+        height: 55vh !important;
+    }
+}
+
+@media(max-width:475px) {
+    .actividades {
+        height: 60vh !important;
+    }
+}
+
+@media(max-width:425px) {
+    .actividades {
+        height: 70vh !important;
+    }
+}
+
+@media(max-width:375px) {
+    .actividades {
+        height: 80vh !important;
+    }
+}
+
+@media(max-width:330px) {
+    .actividades {
+        height: 90vh !important;
+    }
+}
+
+// TRABAJA CON NOSOTROS //
+@media(max-width:2000px) {
+    .section2_trabajaconnosotros {
+        div {
+            padding-right: 5% !important;
+            padding-left: 5% !important;
+        }
+    }
+}
+
+@media(max-width:1400px) {
+    .section3_trabajaconnosotros {
+        height: 110vh !important;
+    }
+}
+
+@media(max-width:950px) {
+    .card-text {
+        font-size: 20px !important;
+    }
+}
+
+@media(max-width:855px) {
+    .fs_section2 {
+        font-size: 23px !important; 
+    }   
+
+    .card-text {
+        font-size: 18px !important;
+    }
+
+    .section3_trabajaconnosotros {
+        height: 110vh !important;
+    }
+}
+
+@media(max-width:700px) {
+    .section3_trabajaconnosotros {
+            height: 150vh !important;
+    }
+
+    .atributos {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .cards {
+        width: 90% !important;
+    }
+}
+
+@media(max-width:510px) {
+    .section2_trabajaconnosotros {
+        height: 110vh !important;
+    }
+
+    .fs_section2 {
+        font-size: 20px !important; 
+    }  
+
+    .section3_trabajaconnosotros {
+        height: 170vh !important;
+    }
+}
+
+@media(max-width:410px) {
+    .fs_section2 {
+        font-size: 19px !important; 
+    } 
+
+    .section2_trabajaconnosotros {
+        div {
+            padding-left: 0% !important;
+            padding-right: 0% !important;
+        }
+    }
+
+    .section3_trabajaconnosotros {
+        height: 190vh !important;
+    }
+}
+
+@media(max-width:360px) {
+    .section3_trabajaconnosotros {
+        height: 210vh !important;
+    }
+}
+
+
+
+
+
+
+// FOOTER //
+@media (max-width:768px) {
+    footer {
+        height: 50vh !important;
+    }
+}
+
+@media (max-width:430px) {
+    footer {
+        height: 75vh !important;
+    }
+}

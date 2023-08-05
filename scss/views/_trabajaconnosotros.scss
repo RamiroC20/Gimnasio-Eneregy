@@ -5,9 +5,15 @@
 
 .cards {
     width: 30%;
+    margin-bottom: 5%;
 }
 
 .bg-cards {
     background-color: map-get($colors , naranja );
+}
+
+.atributos {
+    display: flex !important;
+    gap: 5%;
 }
 

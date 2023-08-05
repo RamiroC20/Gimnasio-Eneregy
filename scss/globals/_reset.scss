@@ -20,5 +20,13 @@ section {
 }
 
 footer {
-    height: 22vh;
+    height: 30vh;
+
+    div {
+        a {
+            img {
+                height: 115px !important;
+            }
+        }
+    }
 }
